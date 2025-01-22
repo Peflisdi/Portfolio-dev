@@ -1,0 +1,55 @@
+.bg {
+  background: url(../assets/Background_Intro.png) no-repeat 50% 50% / cover;
+  padding-block: 72px;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile > div {
+  margin-top: 56px;
+  width: 680px;
+  text-align: center;
+}
+
+div > h2 {
+  font: var(--text-inconsolata-subtitle);
+}
+
+div > h1 {
+  font: var(--text-asap-lg);
+  margin: 8px auto 20px;
+}
+
+div > p {
+  font: var(--text-MavenPro-sm);
+}
+
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-block: 80px 94px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2e2e3a;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font: var(--text-MavenPro-md);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button img {
+  width: 24px;
+  height: 24px;
+}

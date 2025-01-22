@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-red: #e3646e;
+  --color-purple: #bb72e9;
+  --color-blue: #3996db;
+  --color-green: #82bc4f;
+  --color-yellow: #eabd5f;
+
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+
+  --font-asap: "Asap", sans-serif;
+  --font-inconsolata: "Inconsolata", sans-serif;
+  --font-MavenPro: "Maven Pro", sans-serif;
+
+  --text-asap-lg: 700 56px/120% var(--font-asap);
+  --text-asap-md: 700 24px/120% var(--font-asap);
+  --text-asap-sm: 700 16px/120% var(--font-asap);
+
+  --text-inconsolata-subtitle: 400 20px/120% var(--font-inconsolata);
+
+  --text-MavenPro-md: 400 16px/140% var(--font-MavenPro);
+  --text-MavenPro-sm: 400 14px/140% var(--font-MavenPro);
+}
+
+body {
+  color: var(--gray-600);
+  background: var(--gray-200);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.color-purple {
+  color: var(--color-purple);
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
