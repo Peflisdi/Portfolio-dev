@@ -1,12 +1,12 @@
-nav > div {
+section > div > div {
   text-align: center;
 }
 
-nav > div > p {
+section > div > div > p {
   font: var(--text-inconsolata-subtitle);
 }
 
-nav > div > h2 {
+section > div > div > h2 {
   font: var(--text-asap-md);
   margin-top: 8px;
   padding-bottom: 56px;

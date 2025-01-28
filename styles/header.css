@@ -15,16 +15,16 @@
   text-align: center;
 }
 
-div > h2 {
+#profile > div > h2 {
   font: var(--text-inconsolata-subtitle);
 }
 
-div > h1 {
+#profile > div > h1 {
   font: var(--text-asap-lg);
   margin: 8px auto 20px;
 }
 
-div > p {
+#profile > div > p {
   font: var(--text-MavenPro-sm);
 }
 
