@@ -62,3 +62,15 @@ section > div > div > h2 {
     background-color: var(--gray-100);
   }
 }
+
+@media (max-width: 800px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .services {
+    .card-container {
+      grid-template-columns: repeat(1, 280px);
+    }
+  }
+}
